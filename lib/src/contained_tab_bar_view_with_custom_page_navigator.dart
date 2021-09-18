@@ -119,7 +119,7 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
     Duration duration = kTabScrollDuration,
     Curve curve = Curves.ease,
   }) {
-    if (toPage < 0 || widget.tabs.length >= toPage) return;
+    // if (toPage < 0 || widget.tabs.length >= toPage) return;
     animateTo(_controller.index = toPage);
   }
 
