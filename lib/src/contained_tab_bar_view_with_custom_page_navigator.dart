@@ -114,6 +114,16 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
     animateTo(_controller.index - 1);
   }
 
+  void navigateTo({
+    toPage = 1,
+    Duration duration = kTabScrollDuration,
+    Curve curve = Curves.ease,
+  }) {
+    if (_controller.index == 0) return;
+    if (widget.tabs.length < toPage) return;
+    animateTo(_controller.index = toPage);
+  }
+
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(

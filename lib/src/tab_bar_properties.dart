@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:contained_tab_bar_view/src/enums.dart';
+import 'package:contained_tab_bar_view_with_custom_page_navigator/src/enums.dart';
 
 /// Properties which define the [TabBar]'s appearance.
 class TabBarProperties {

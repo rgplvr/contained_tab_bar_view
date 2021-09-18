@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  contained_tab_bar_view:
+  contained_tab_bar_view_with_custom_page_navigator:
     path: ../
 
   cupertino_icons: ^1.0.3

@@ -1,8 +1,8 @@
-name: contained_tab_bar_view
+name: contained_tab_bar_view_with_custom_page_navigator
 description: Encapsulates TabController, TabBar and TabBarView into a single customizable Widget.
-version: 0.8.0
-homepage: https://github.com/slovnicki/contained_tab_bar_view
-repository: https://github.com/slovnicki/contained_tab_bar_view
+version: 0.1.0
+homepage: https://github.com/rgplvr/contained_tab_bar_view
+repository: https://github.com/rgplvr/contained_tab_bar_view
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
