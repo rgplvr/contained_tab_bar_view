@@ -115,7 +115,7 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
   }
 
   void navigateTo({
-    toPage = 1,
+    toPage,
     Duration duration = kTabScrollDuration,
     Curve curve = Curves.ease,
   }) {
